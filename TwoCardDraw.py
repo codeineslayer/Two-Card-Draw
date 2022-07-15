@@ -25,3 +25,5 @@ elif pcsum > usersum:
     print("Your Cards: " + str(usercardnames))
 elif pcsum == usersum:
     print("You tied!")
+    print("PC Cards: " + str(pccardnames))
+    print("Your Cards: " + str(usercardnames))

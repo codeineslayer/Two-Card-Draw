@@ -1,7 +1,7 @@
 import random
 
 cardlist = {"2": 2, "3": 3, "4": 4, "5": 5, "6": 6,
-            "7": 7, "8": 8, "9": 9, "10": 10, "J": 10, "Q": 10, "K": 10, "Ace": 11,}
+            "7": 7, "8": 8, "9": 9, "10": 10, "J": 11, "Q": 12, "K": 13, "Ace": 14,}
 suits = {"Spades", "Clubs", "Diamonds", "Hearts"}
 color = {"Black", "Red"}
 cards = []

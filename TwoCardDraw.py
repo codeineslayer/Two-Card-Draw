@@ -10,13 +10,13 @@ SUITS = {
           "display": Fore.BLACK + "♠" + Style.RESET_ALL,
             },
         "clubs": {
-            "display": Fore.BLACK + "♣ " + Style.RESET_ALL
+            "display": Fore.BLACK + "♣" + Style.RESET_ALL
             },
         "diamonds": {
             "display": Fore.RED + "♦" + Style.RESET_ALL
             },
         "hearts": {
-            "display": Fore.RED + "♥ " + Style.RESET_ALL
+            "display": Fore.RED + "♥" + Style.RESET_ALL
             }
         }
 DECK = []

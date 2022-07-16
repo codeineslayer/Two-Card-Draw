@@ -85,5 +85,5 @@ if __name__ == "__main__":
         outcome = "tie"
 
     print("You %s!" % outcome)
-    print("Your hand: %s" % (', '.join([x.print_to_screen() for x in usercards])))
-    print("PC's hand: %s" %  (', '.join([x.print_to_screen() for x in pccards])))
+    print("Your hand: %s" % (' '.join([x.print_to_screen() for x in usercards])))
+    print("PC's hand: %s" %  (' '.join([x.print_to_screen() for x in pccards])))

@@ -27,10 +27,10 @@ class Card:
         self.suit = suit
 
     def value(self):
-        if self.number in range(2,10):
-            value = self.number
+        if self.number == 1:
+            value = 14
         else:
-            value = 10
+            value = self.number
         return int(value)
 
     def print_format(self):

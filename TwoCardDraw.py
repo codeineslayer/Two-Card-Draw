@@ -81,7 +81,7 @@ if __name__ == "__main__":
         outcome = "win"
     elif usersum < pcsum:
         outcome = "lose"
-    else:
+    elif usersum == pcsum:
         outcome = "tie"
 
     print("You %s!" % outcome)
